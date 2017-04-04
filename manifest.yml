@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOXLAB_smartbin
+  host: IOXLABSmartBin
+  disk_quota: 1024M
+  services:
+  - IOXLAB-SmartBin
+  - IOXLAB_smartbin-cloudantNoSQLDB
